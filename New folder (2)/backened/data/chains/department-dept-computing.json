@@ -1,0 +1,28 @@
+{
+  "id": "dept-computing",
+  "type": "department",
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-15T18:52:25.979Z",
+      "transactions": {
+        "meta": "department genesis for dept-computing"
+      },
+      "prev_hash": "0",
+      "nonce": 55303,
+      "hash": "000049ade4a2e8ca33853d241e0a89698f695fe58a76f83960e18c5b2582a5ab"
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-15T18:52:26.271Z",
+      "transactions": {
+        "meta": {
+          "name": "School of Computing"
+        }
+      },
+      "prev_hash": "000049ade4a2e8ca33853d241e0a89698f695fe58a76f83960e18c5b2582a5ab",
+      "nonce": 173014,
+      "hash": "00000527c3774c7a6e2a4ff16d790447fe51094606f7cabf55b074c9777aab1a"
+    }
+  ]
+}

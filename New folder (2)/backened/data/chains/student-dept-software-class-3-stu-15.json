@@ -1,0 +1,32 @@
+{
+  "id": "dept-software-class-3-stu-15",
+  "type": "student",
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-15T18:55:39.805Z",
+      "transactions": {
+        "meta": "student genesis for dept-software-class-3-stu-15"
+      },
+      "prev_hash": "0000cde3669f93952b4353a24f1b416f7bdfbfdb9ef9c26f2c4cc4507f5f79fa",
+      "nonce": 54930,
+      "hash": "000024f2b6b4ef94c3742a75a431cc1d76040789b64f3f8824b2eca0e6b0f74b"
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-15T18:55:40.156Z",
+      "transactions": {
+        "meta": {
+          "id": "dept-software-class-3-stu-15",
+          "name": "Student 15",
+          "roll": "3-15",
+          "departmentId": "dept-software",
+          "classId": "dept-software-class-3"
+        }
+      },
+      "prev_hash": "000024f2b6b4ef94c3742a75a431cc1d76040789b64f3f8824b2eca0e6b0f74b",
+      "nonce": 38591,
+      "hash": "00000d25b1c68cec2a90cdf19fe31ea1f1d6580006d3cd35389328f34d0e2ef7"
+    }
+  ]
+}

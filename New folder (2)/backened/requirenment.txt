@@ -1,0 +1,237 @@
+Assignment Overview
+In this assignment, you will design and implement an advanced multi-layered Blockchain-Based
+Attendance Management System (BAMS) using:
+ Node.js Backend (mandatory)
+ Any frontend (React, Next.js, Vue, HTML/JS, etc.)
+ Custom-built blockchain logic (no external blockchain libraries)
+Unlike traditional single-chain implementations, this project requires you to create three
+hierarchical blockchain layers:
+Layer 1 — Department Blockchain
+Each department (e.g., School of Computing, School of Software Engineering) has its own
+blockchain.
+The genesis block is tied only to the department.
+Layer 2 — Class Blockchain (Child of Department Chain)
+Each class inside a department spawns its own blockchain:
+ Its genesis block uses the department’s latest block hash as its prev_hash.
+ Meaning: all classes depend on and extend the department chain.
+Layer 3 — Student Blockchain (Child of Class Chain)
+Each student has their own personal blockchain ledger:
+ Its genesis block uses the class chain’s latest block hash as its prev_hash.
+ The student’s attendance blocks attach to their personal chain.
+ This makes the entire hierarchy:
+Department → Class → Student → Attendance blocks
+all cryptographically interlinked.
+This design builds a 3-dimensional hierarchical blockchain, where altering a department block
+invalidates:
+ all its child class chains
+ all student chains under those classes
+ all attendance entries for those students
+This simulates real-world cross-linked blockchain structures (similar to sharded chains,
+subnetworks, and parent-child DAG chains).
+
+Basic Requirements
+The system you are building will manage attendance for a fictional school. The school has two
+departments: The School of Computing and The School of Software Engineering. Each department
+contains five classes, and each class contains thirty-five students.
+While this structure is provided as a default reference, your system must allow administrators to add
+or remove departments, create new classes under departments, and add or remove students
+dynamically. You may also allow editing or customizing these structures through your interface.
+Functional Requirements
+Your application must allow full CRUD (Create, Read, Update, Delete) management for departments,
+classes, and students. Administrators should be able to add new departments, remove existing ones,
+view the complete department list, and search for a department by name.
+Classes must be managed under their respective departments. The system should let an admin
+create a class inside a department, remove one, browse all classes, and locate a specific class
+through a search function.
+For students, your system must allow adding a new student with attributes such as name, roll
+number, department, and assigned class. Deleting or editing a student&#39;s details must be supported
+as well. Students should be searchable by name or roll number.
+Most importantly, your system must display a student&#39;s personal attendance history in blockchain
+form, meaning every attendance entry connected through hashes, nonces, and timestamps.
+The attendance module must let the administrator mark whether a student is Present, Absent, or on
+Leave. Every attendance record should automatically generate a blockchain transaction containing
+the student’s details and attendance status. Administrators must be able to view attendance for the
+current day, for any class, for an entire department, and the complete attendance history for any
+individual student.
+You must implement full CRUD for:
+1. Departments
+Admins can add, view, search, and update department metadata.
+However, no block may be removed. So:
+Deleting or Updating a Department
+You cannot erase or modify an existing block.
+Instead:
+ A new block must be added to the Department Blockchain stating:
+o status: &quot;deleted&quot; OR
+o updated fields (name_updated, meta_updated, etc.)
+ Previous blocks remain intact.
+ Newer blocks override older ones based on timestamp priority.
+
+2. Classes
+Classes belong to a specific department and must inherit blockchain safety as well.
+Admins can add, view, update, and search classes.
+Class Additions
+ Creating a class generates a Class Chain GENESIS block with:
+o prev_hash = latest_block_of_parent_department_chain.
+
+Updating or Deleting a Class
+Again, no historical block is allowed to change.
+Instead:
+ A new block is appended containing:
+o updated details
+o or status: &quot;deleted&quot;.
+ Older blocks are never removed.
+
+3. Students
+Admins can add, remove, update, and search students.
+Student Additions
+ Creates a Student Chain GENESIS block with:
+o prev_hash = latest_block_of_class_chain.
+
+Student Deletion or Update
+No block may be erased or modified. So:
+ A new block is added to that student’s chain:
+o status: &quot;deleted&quot; or
+o updated fields (name, roll no, etc.)
+ When reading student data, the system prioritizes the most recent block for interpretation.
+
+B. Attendance System
+Mark attendance categories:
+ Present
+ Absent
+ Leave
+Each attendance record becomes a block inside the student blockchain, containing:
+ Student details
+ Department ID
+ Class ID
+ Timestamp
+ Status
+ Previous student block hash
+ Nonce (PoW)
+ Final computed hash
+
+BlockChain Requirement
+Your blockchain must resemble a real blockchain system, with each block containing several
+essential fields: an index for identifying the block number, a list of attendance transactions, the
+timestamp of creation, the hash of the previous block, a nonce value, and the final computed hash
+of the block itself.
+The hashing mechanism must be implemented using SHA-256, and the hash must be computed over
+a combination of the block’s timestamp, transaction data, previous hash, and nonce. Any
+modification to the block or its transactions must immediately invalidate the chain, demonstrating
+the blockchain’s immutability principle.
+You must also implement a simplified Proof of Work (PoW) mechanism. When mining a block, your
+system should repeatedly modify the nonce until the resulting hash starts with “0000”. This ensures
+that each block requires computational effort to create, just like real blockchain mining.
+Chain validation is required as well. Your system must implement a validation function that
+recalculates the hash of every block, checks that each block’s previous hash correctly matches the
+hash of the block before it, and verifies that all PoW conditions are satisfied. If even a single block is
+tampered with, the validation function must clearly show that the chain is no longer valid.
+
+A. Block Structure (Mandatory fields)
+Field Description
+index Block number
+timestamp System time
+transaction
+s Attendance or metadata (student/class/department)
+prev_hash Previous block hash (from parent chain or same
+
+chain)
+nonce PoW nonce
+hash Final SHA-256 result
+B. Three Interlinked Chains (Mandatory)
+1. Department Chain
+Independent chain.
+2. Class Chain
+Genesis block must use:
+prev_hash = last_hash_of_its_department_chain
+3. Student Chain
+Genesis block must use:
+prev_hash = last_hash_of_its_class_chain
+Attendance Blocks
+These attach sequentially to the student chain.
+This creates a pyramid blockchain.
+C. Hashing Requirements
+Your SHA-256 hash must include:
+ timestamp
+ transaction payload
+ previous hash
+ nonce
+No shortcuts.
+
+E. Multi-Level Validation Logic
+Your validation must check:
+1. Department chain valid
+2. Each class chain is valid
+3. Each class chain begins with correct department hash
+4. Each student chain is valid
+5. Each student chain begins with correct class hash
+6. Attendance records re-hash correctly
+7. PoW valid for every block
+If any chain is tampered with, all dependent chains must show as invalid.
+
+
+
+
+
+Final Grading Rubric
+
+Category Marks
+Correct project implementation 10
+Blockchain structure (Dept → Class → Student→Attendance) 10
+SHA-256 hashing correctly implemented 5
+Proof of Work implemented correctly 10
+Blockchain validation for all chains 5
+CRUD operations – Departments 5
+CRUD operations – Classes 5
+CRUD operations – Students 8
+Attendance marking &amp; block creation 5
+Frontend UI implementation 5
+Blockchain explorer 5
+Student attendance ledger 5
+Search functionality 4
+Backend architecture (controllers, services, routing) 15
+Documentation (README, instructions, screenshots) 3
+Deployment on Netlify/Vercel Git Public Repo 5
+
+Final Deliverables
+Deliverable Description Required Format
+1. Source Code (Frontend +
+Backend) Complete implementation Public GitHub repo
+2. Blockchain Logic Folder All classes for block, chain, hashing,
+
+validation Inside repo
+
+3. Department/Class/Student
+Chains 3-Layer blockchains implemented JSON files / DB
+4. Attendance System stored as mined blocks API + UI
+5. Validation Engine Multi-level validator Backend code
+6. Deployment Working live link Vercel/Netlify/Rende
+
+r
+7. README Setup, run instructions, screenshots Markdown
+8. LinkedIn Post Public portfolio post Share link
+
+
+
+
+bams/
+  server.js
+  /blockchain
+    block.js
+    chain.js
+    factory.js
+    validator.js
+  /controllers
+    departments.js
+    classes.js
+    students.js
+    attendance.js
+  /routes
+    departmentsRoutes.js
+    classesRoutes.js
+    studentsRoutes.js
+    attendanceRoutes.js
+  /data
+    registry.json
+    /chains
+  /scripts
+    generateDefaultData.js

@@ -1,0 +1,2516 @@
+{
+  "departments": {
+    "dept-computing": {
+      "id": "dept-computing",
+      "name": "School of Computing"
+    },
+    "dept-software": {
+      "id": "dept-software",
+      "name": "School of Software Engineering"
+    }
+  },
+  "classes": {
+    "dept-computing-class-1": {
+      "id": "dept-computing-class-1",
+      "name": "Class 1",
+      "departmentId": "dept-computing"
+    },
+    "dept-computing-class-2": {
+      "id": "dept-computing-class-2",
+      "name": "Class 2",
+      "departmentId": "dept-computing"
+    },
+    "dept-computing-class-3": {
+      "id": "dept-computing-class-3",
+      "name": "Class 3",
+      "departmentId": "dept-computing"
+    },
+    "dept-computing-class-4": {
+      "id": "dept-computing-class-4",
+      "name": "Class 4",
+      "departmentId": "dept-computing"
+    },
+    "dept-computing-class-5": {
+      "id": "dept-computing-class-5",
+      "name": "Class 5",
+      "departmentId": "dept-computing"
+    },
+    "dept-software-class-1": {
+      "id": "dept-software-class-1",
+      "name": "Class 1",
+      "departmentId": "dept-software"
+    },
+    "dept-software-class-2": {
+      "id": "dept-software-class-2",
+      "name": "Class 2",
+      "departmentId": "dept-software"
+    },
+    "dept-software-class-3": {
+      "id": "dept-software-class-3",
+      "name": "Class 3",
+      "departmentId": "dept-software"
+    },
+    "dept-software-class-4": {
+      "id": "dept-software-class-4",
+      "name": "Class 4",
+      "departmentId": "dept-software"
+    },
+    "dept-software-class-5": {
+      "id": "dept-software-class-5",
+      "name": "Class 5",
+      "departmentId": "dept-software"
+    }
+  },
+  "students": {
+    "dept-computing-class-1-stu-1": {
+      "id": "dept-computing-class-1-stu-1",
+      "name": "Student 1",
+      "roll": "1-1",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-2": {
+      "id": "dept-computing-class-1-stu-2",
+      "name": "Student 2",
+      "roll": "1-2",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-3": {
+      "id": "dept-computing-class-1-stu-3",
+      "name": "Student 3",
+      "roll": "1-3",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-4": {
+      "id": "dept-computing-class-1-stu-4",
+      "name": "Student 4",
+      "roll": "1-4",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-5": {
+      "id": "dept-computing-class-1-stu-5",
+      "name": "Student 5",
+      "roll": "1-5",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-6": {
+      "id": "dept-computing-class-1-stu-6",
+      "name": "Student 6",
+      "roll": "1-6",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-7": {
+      "id": "dept-computing-class-1-stu-7",
+      "name": "Student 7",
+      "roll": "1-7",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-8": {
+      "id": "dept-computing-class-1-stu-8",
+      "name": "Student 8",
+      "roll": "1-8",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-9": {
+      "id": "dept-computing-class-1-stu-9",
+      "name": "Student 9",
+      "roll": "1-9",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-10": {
+      "id": "dept-computing-class-1-stu-10",
+      "name": "Student 10",
+      "roll": "1-10",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-11": {
+      "id": "dept-computing-class-1-stu-11",
+      "name": "Student 11",
+      "roll": "1-11",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-12": {
+      "id": "dept-computing-class-1-stu-12",
+      "name": "Student 12",
+      "roll": "1-12",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-13": {
+      "id": "dept-computing-class-1-stu-13",
+      "name": "Student 13",
+      "roll": "1-13",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-14": {
+      "id": "dept-computing-class-1-stu-14",
+      "name": "Student 14",
+      "roll": "1-14",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-15": {
+      "id": "dept-computing-class-1-stu-15",
+      "name": "Student 15",
+      "roll": "1-15",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-16": {
+      "id": "dept-computing-class-1-stu-16",
+      "name": "Student 16",
+      "roll": "1-16",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-17": {
+      "id": "dept-computing-class-1-stu-17",
+      "name": "Student 17",
+      "roll": "1-17",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-18": {
+      "id": "dept-computing-class-1-stu-18",
+      "name": "Student 18",
+      "roll": "1-18",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-19": {
+      "id": "dept-computing-class-1-stu-19",
+      "name": "Student 19",
+      "roll": "1-19",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-20": {
+      "id": "dept-computing-class-1-stu-20",
+      "name": "Student 20",
+      "roll": "1-20",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-21": {
+      "id": "dept-computing-class-1-stu-21",
+      "name": "Student 21",
+      "roll": "1-21",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-22": {
+      "id": "dept-computing-class-1-stu-22",
+      "name": "Student 22",
+      "roll": "1-22",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-23": {
+      "id": "dept-computing-class-1-stu-23",
+      "name": "Student 23",
+      "roll": "1-23",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-24": {
+      "id": "dept-computing-class-1-stu-24",
+      "name": "Student 24",
+      "roll": "1-24",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-25": {
+      "id": "dept-computing-class-1-stu-25",
+      "name": "Student 25",
+      "roll": "1-25",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-26": {
+      "id": "dept-computing-class-1-stu-26",
+      "name": "Student 26",
+      "roll": "1-26",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-27": {
+      "id": "dept-computing-class-1-stu-27",
+      "name": "Student 27",
+      "roll": "1-27",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-28": {
+      "id": "dept-computing-class-1-stu-28",
+      "name": "Student 28",
+      "roll": "1-28",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-29": {
+      "id": "dept-computing-class-1-stu-29",
+      "name": "Student 29",
+      "roll": "1-29",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-30": {
+      "id": "dept-computing-class-1-stu-30",
+      "name": "Student 30",
+      "roll": "1-30",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-31": {
+      "id": "dept-computing-class-1-stu-31",
+      "name": "Student 31",
+      "roll": "1-31",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-32": {
+      "id": "dept-computing-class-1-stu-32",
+      "name": "Student 32",
+      "roll": "1-32",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-33": {
+      "id": "dept-computing-class-1-stu-33",
+      "name": "Student 33",
+      "roll": "1-33",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-34": {
+      "id": "dept-computing-class-1-stu-34",
+      "name": "Student 34",
+      "roll": "1-34",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-1-stu-35": {
+      "id": "dept-computing-class-1-stu-35",
+      "name": "Student 35",
+      "roll": "1-35",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-1"
+    },
+    "dept-computing-class-2-stu-1": {
+      "id": "dept-computing-class-2-stu-1",
+      "name": "Student 1",
+      "roll": "2-1",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-2": {
+      "id": "dept-computing-class-2-stu-2",
+      "name": "Student 2",
+      "roll": "2-2",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-3": {
+      "id": "dept-computing-class-2-stu-3",
+      "name": "Student 3",
+      "roll": "2-3",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-4": {
+      "id": "dept-computing-class-2-stu-4",
+      "name": "Student 4",
+      "roll": "2-4",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-5": {
+      "id": "dept-computing-class-2-stu-5",
+      "name": "Student 5",
+      "roll": "2-5",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-6": {
+      "id": "dept-computing-class-2-stu-6",
+      "name": "Student 6",
+      "roll": "2-6",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-7": {
+      "id": "dept-computing-class-2-stu-7",
+      "name": "Student 7",
+      "roll": "2-7",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-8": {
+      "id": "dept-computing-class-2-stu-8",
+      "name": "Student 8",
+      "roll": "2-8",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-9": {
+      "id": "dept-computing-class-2-stu-9",
+      "name": "Student 9",
+      "roll": "2-9",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-10": {
+      "id": "dept-computing-class-2-stu-10",
+      "name": "Student 10",
+      "roll": "2-10",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-11": {
+      "id": "dept-computing-class-2-stu-11",
+      "name": "Student 11",
+      "roll": "2-11",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-12": {
+      "id": "dept-computing-class-2-stu-12",
+      "name": "Student 12",
+      "roll": "2-12",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-13": {
+      "id": "dept-computing-class-2-stu-13",
+      "name": "Student 13",
+      "roll": "2-13",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-14": {
+      "id": "dept-computing-class-2-stu-14",
+      "name": "Student 14",
+      "roll": "2-14",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-15": {
+      "id": "dept-computing-class-2-stu-15",
+      "name": "Student 15",
+      "roll": "2-15",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-16": {
+      "id": "dept-computing-class-2-stu-16",
+      "name": "Student 16",
+      "roll": "2-16",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-17": {
+      "id": "dept-computing-class-2-stu-17",
+      "name": "Student 17",
+      "roll": "2-17",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-18": {
+      "id": "dept-computing-class-2-stu-18",
+      "name": "Student 18",
+      "roll": "2-18",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-19": {
+      "id": "dept-computing-class-2-stu-19",
+      "name": "Student 19",
+      "roll": "2-19",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-20": {
+      "id": "dept-computing-class-2-stu-20",
+      "name": "Student 20",
+      "roll": "2-20",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-21": {
+      "id": "dept-computing-class-2-stu-21",
+      "name": "Student 21",
+      "roll": "2-21",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-22": {
+      "id": "dept-computing-class-2-stu-22",
+      "name": "Student 22",
+      "roll": "2-22",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-23": {
+      "id": "dept-computing-class-2-stu-23",
+      "name": "Student 23",
+      "roll": "2-23",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-24": {
+      "id": "dept-computing-class-2-stu-24",
+      "name": "Student 24",
+      "roll": "2-24",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-25": {
+      "id": "dept-computing-class-2-stu-25",
+      "name": "Student 25",
+      "roll": "2-25",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-26": {
+      "id": "dept-computing-class-2-stu-26",
+      "name": "Student 26",
+      "roll": "2-26",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-27": {
+      "id": "dept-computing-class-2-stu-27",
+      "name": "Student 27",
+      "roll": "2-27",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-28": {
+      "id": "dept-computing-class-2-stu-28",
+      "name": "Student 28",
+      "roll": "2-28",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-29": {
+      "id": "dept-computing-class-2-stu-29",
+      "name": "Student 29",
+      "roll": "2-29",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-30": {
+      "id": "dept-computing-class-2-stu-30",
+      "name": "Student 30",
+      "roll": "2-30",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-31": {
+      "id": "dept-computing-class-2-stu-31",
+      "name": "Student 31",
+      "roll": "2-31",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-32": {
+      "id": "dept-computing-class-2-stu-32",
+      "name": "Student 32",
+      "roll": "2-32",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-33": {
+      "id": "dept-computing-class-2-stu-33",
+      "name": "Student 33",
+      "roll": "2-33",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-34": {
+      "id": "dept-computing-class-2-stu-34",
+      "name": "Student 34",
+      "roll": "2-34",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-2-stu-35": {
+      "id": "dept-computing-class-2-stu-35",
+      "name": "Student 35",
+      "roll": "2-35",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-2"
+    },
+    "dept-computing-class-3-stu-1": {
+      "id": "dept-computing-class-3-stu-1",
+      "name": "Student 1",
+      "roll": "3-1",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-2": {
+      "id": "dept-computing-class-3-stu-2",
+      "name": "Student 2",
+      "roll": "3-2",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-3": {
+      "id": "dept-computing-class-3-stu-3",
+      "name": "Student 3",
+      "roll": "3-3",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-4": {
+      "id": "dept-computing-class-3-stu-4",
+      "name": "Student 4",
+      "roll": "3-4",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-5": {
+      "id": "dept-computing-class-3-stu-5",
+      "name": "Student 5",
+      "roll": "3-5",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-6": {
+      "id": "dept-computing-class-3-stu-6",
+      "name": "Student 6",
+      "roll": "3-6",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-7": {
+      "id": "dept-computing-class-3-stu-7",
+      "name": "Student 7",
+      "roll": "3-7",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-8": {
+      "id": "dept-computing-class-3-stu-8",
+      "name": "Student 8",
+      "roll": "3-8",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-9": {
+      "id": "dept-computing-class-3-stu-9",
+      "name": "Student 9",
+      "roll": "3-9",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-10": {
+      "id": "dept-computing-class-3-stu-10",
+      "name": "Student 10",
+      "roll": "3-10",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-11": {
+      "id": "dept-computing-class-3-stu-11",
+      "name": "Student 11",
+      "roll": "3-11",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-12": {
+      "id": "dept-computing-class-3-stu-12",
+      "name": "Student 12",
+      "roll": "3-12",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-13": {
+      "id": "dept-computing-class-3-stu-13",
+      "name": "Student 13",
+      "roll": "3-13",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-14": {
+      "id": "dept-computing-class-3-stu-14",
+      "name": "Student 14",
+      "roll": "3-14",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-15": {
+      "id": "dept-computing-class-3-stu-15",
+      "name": "Student 15",
+      "roll": "3-15",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-16": {
+      "id": "dept-computing-class-3-stu-16",
+      "name": "Student 16",
+      "roll": "3-16",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-17": {
+      "id": "dept-computing-class-3-stu-17",
+      "name": "Student 17",
+      "roll": "3-17",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-18": {
+      "id": "dept-computing-class-3-stu-18",
+      "name": "Student 18",
+      "roll": "3-18",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-19": {
+      "id": "dept-computing-class-3-stu-19",
+      "name": "Student 19",
+      "roll": "3-19",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-20": {
+      "id": "dept-computing-class-3-stu-20",
+      "name": "Student 20",
+      "roll": "3-20",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-21": {
+      "id": "dept-computing-class-3-stu-21",
+      "name": "Student 21",
+      "roll": "3-21",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-22": {
+      "id": "dept-computing-class-3-stu-22",
+      "name": "Student 22",
+      "roll": "3-22",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-23": {
+      "id": "dept-computing-class-3-stu-23",
+      "name": "Student 23",
+      "roll": "3-23",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-24": {
+      "id": "dept-computing-class-3-stu-24",
+      "name": "Student 24",
+      "roll": "3-24",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-25": {
+      "id": "dept-computing-class-3-stu-25",
+      "name": "Student 25",
+      "roll": "3-25",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-26": {
+      "id": "dept-computing-class-3-stu-26",
+      "name": "Student 26",
+      "roll": "3-26",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-27": {
+      "id": "dept-computing-class-3-stu-27",
+      "name": "Student 27",
+      "roll": "3-27",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-28": {
+      "id": "dept-computing-class-3-stu-28",
+      "name": "Student 28",
+      "roll": "3-28",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-29": {
+      "id": "dept-computing-class-3-stu-29",
+      "name": "Student 29",
+      "roll": "3-29",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-30": {
+      "id": "dept-computing-class-3-stu-30",
+      "name": "Student 30",
+      "roll": "3-30",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-31": {
+      "id": "dept-computing-class-3-stu-31",
+      "name": "Student 31",
+      "roll": "3-31",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-32": {
+      "id": "dept-computing-class-3-stu-32",
+      "name": "Student 32",
+      "roll": "3-32",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-33": {
+      "id": "dept-computing-class-3-stu-33",
+      "name": "Student 33",
+      "roll": "3-33",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-34": {
+      "id": "dept-computing-class-3-stu-34",
+      "name": "Student 34",
+      "roll": "3-34",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-3-stu-35": {
+      "id": "dept-computing-class-3-stu-35",
+      "name": "Student 35",
+      "roll": "3-35",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-3"
+    },
+    "dept-computing-class-4-stu-1": {
+      "id": "dept-computing-class-4-stu-1",
+      "name": "Student 1",
+      "roll": "4-1",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-2": {
+      "id": "dept-computing-class-4-stu-2",
+      "name": "Student 2",
+      "roll": "4-2",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-3": {
+      "id": "dept-computing-class-4-stu-3",
+      "name": "Student 3",
+      "roll": "4-3",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-4": {
+      "id": "dept-computing-class-4-stu-4",
+      "name": "Student 4",
+      "roll": "4-4",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-5": {
+      "id": "dept-computing-class-4-stu-5",
+      "name": "Student 5",
+      "roll": "4-5",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-6": {
+      "id": "dept-computing-class-4-stu-6",
+      "name": "Student 6",
+      "roll": "4-6",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-7": {
+      "id": "dept-computing-class-4-stu-7",
+      "name": "Student 7",
+      "roll": "4-7",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-8": {
+      "id": "dept-computing-class-4-stu-8",
+      "name": "Student 8",
+      "roll": "4-8",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-9": {
+      "id": "dept-computing-class-4-stu-9",
+      "name": "Student 9",
+      "roll": "4-9",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-10": {
+      "id": "dept-computing-class-4-stu-10",
+      "name": "Student 10",
+      "roll": "4-10",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-11": {
+      "id": "dept-computing-class-4-stu-11",
+      "name": "Student 11",
+      "roll": "4-11",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-12": {
+      "id": "dept-computing-class-4-stu-12",
+      "name": "Student 12",
+      "roll": "4-12",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-13": {
+      "id": "dept-computing-class-4-stu-13",
+      "name": "Student 13",
+      "roll": "4-13",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-14": {
+      "id": "dept-computing-class-4-stu-14",
+      "name": "Student 14",
+      "roll": "4-14",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-15": {
+      "id": "dept-computing-class-4-stu-15",
+      "name": "Student 15",
+      "roll": "4-15",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-16": {
+      "id": "dept-computing-class-4-stu-16",
+      "name": "Student 16",
+      "roll": "4-16",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-17": {
+      "id": "dept-computing-class-4-stu-17",
+      "name": "Student 17",
+      "roll": "4-17",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-18": {
+      "id": "dept-computing-class-4-stu-18",
+      "name": "Student 18",
+      "roll": "4-18",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-19": {
+      "id": "dept-computing-class-4-stu-19",
+      "name": "Student 19",
+      "roll": "4-19",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-20": {
+      "id": "dept-computing-class-4-stu-20",
+      "name": "Student 20",
+      "roll": "4-20",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-21": {
+      "id": "dept-computing-class-4-stu-21",
+      "name": "Student 21",
+      "roll": "4-21",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-22": {
+      "id": "dept-computing-class-4-stu-22",
+      "name": "Student 22",
+      "roll": "4-22",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-23": {
+      "id": "dept-computing-class-4-stu-23",
+      "name": "Student 23",
+      "roll": "4-23",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-24": {
+      "id": "dept-computing-class-4-stu-24",
+      "name": "Student 24",
+      "roll": "4-24",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-25": {
+      "id": "dept-computing-class-4-stu-25",
+      "name": "Student 25",
+      "roll": "4-25",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-26": {
+      "id": "dept-computing-class-4-stu-26",
+      "name": "Student 26",
+      "roll": "4-26",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-27": {
+      "id": "dept-computing-class-4-stu-27",
+      "name": "Student 27",
+      "roll": "4-27",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-28": {
+      "id": "dept-computing-class-4-stu-28",
+      "name": "Student 28",
+      "roll": "4-28",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-29": {
+      "id": "dept-computing-class-4-stu-29",
+      "name": "Student 29",
+      "roll": "4-29",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-30": {
+      "id": "dept-computing-class-4-stu-30",
+      "name": "Student 30",
+      "roll": "4-30",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-31": {
+      "id": "dept-computing-class-4-stu-31",
+      "name": "Student 31",
+      "roll": "4-31",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-32": {
+      "id": "dept-computing-class-4-stu-32",
+      "name": "Student 32",
+      "roll": "4-32",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-33": {
+      "id": "dept-computing-class-4-stu-33",
+      "name": "Student 33",
+      "roll": "4-33",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-34": {
+      "id": "dept-computing-class-4-stu-34",
+      "name": "Student 34",
+      "roll": "4-34",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-4-stu-35": {
+      "id": "dept-computing-class-4-stu-35",
+      "name": "Student 35",
+      "roll": "4-35",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-4"
+    },
+    "dept-computing-class-5-stu-1": {
+      "id": "dept-computing-class-5-stu-1",
+      "name": "Student 1",
+      "roll": "5-1",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-2": {
+      "id": "dept-computing-class-5-stu-2",
+      "name": "Student 2",
+      "roll": "5-2",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-3": {
+      "id": "dept-computing-class-5-stu-3",
+      "name": "Student 3",
+      "roll": "5-3",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-4": {
+      "id": "dept-computing-class-5-stu-4",
+      "name": "Student 4",
+      "roll": "5-4",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-5": {
+      "id": "dept-computing-class-5-stu-5",
+      "name": "Student 5",
+      "roll": "5-5",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-6": {
+      "id": "dept-computing-class-5-stu-6",
+      "name": "Student 6",
+      "roll": "5-6",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-7": {
+      "id": "dept-computing-class-5-stu-7",
+      "name": "Student 7",
+      "roll": "5-7",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-8": {
+      "id": "dept-computing-class-5-stu-8",
+      "name": "Student 8",
+      "roll": "5-8",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-9": {
+      "id": "dept-computing-class-5-stu-9",
+      "name": "Student 9",
+      "roll": "5-9",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-10": {
+      "id": "dept-computing-class-5-stu-10",
+      "name": "Student 10",
+      "roll": "5-10",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-11": {
+      "id": "dept-computing-class-5-stu-11",
+      "name": "Student 11",
+      "roll": "5-11",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-12": {
+      "id": "dept-computing-class-5-stu-12",
+      "name": "Student 12",
+      "roll": "5-12",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-13": {
+      "id": "dept-computing-class-5-stu-13",
+      "name": "Student 13",
+      "roll": "5-13",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-14": {
+      "id": "dept-computing-class-5-stu-14",
+      "name": "Student 14",
+      "roll": "5-14",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-15": {
+      "id": "dept-computing-class-5-stu-15",
+      "name": "Student 15",
+      "roll": "5-15",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-16": {
+      "id": "dept-computing-class-5-stu-16",
+      "name": "Student 16",
+      "roll": "5-16",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-17": {
+      "id": "dept-computing-class-5-stu-17",
+      "name": "Student 17",
+      "roll": "5-17",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-18": {
+      "id": "dept-computing-class-5-stu-18",
+      "name": "Student 18",
+      "roll": "5-18",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-19": {
+      "id": "dept-computing-class-5-stu-19",
+      "name": "Student 19",
+      "roll": "5-19",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-20": {
+      "id": "dept-computing-class-5-stu-20",
+      "name": "Student 20",
+      "roll": "5-20",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-21": {
+      "id": "dept-computing-class-5-stu-21",
+      "name": "Student 21",
+      "roll": "5-21",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-22": {
+      "id": "dept-computing-class-5-stu-22",
+      "name": "Student 22",
+      "roll": "5-22",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-23": {
+      "id": "dept-computing-class-5-stu-23",
+      "name": "Student 23",
+      "roll": "5-23",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-24": {
+      "id": "dept-computing-class-5-stu-24",
+      "name": "Student 24",
+      "roll": "5-24",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-25": {
+      "id": "dept-computing-class-5-stu-25",
+      "name": "Student 25",
+      "roll": "5-25",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-26": {
+      "id": "dept-computing-class-5-stu-26",
+      "name": "Student 26",
+      "roll": "5-26",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-27": {
+      "id": "dept-computing-class-5-stu-27",
+      "name": "Student 27",
+      "roll": "5-27",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-28": {
+      "id": "dept-computing-class-5-stu-28",
+      "name": "Student 28",
+      "roll": "5-28",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-29": {
+      "id": "dept-computing-class-5-stu-29",
+      "name": "Student 29",
+      "roll": "5-29",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-30": {
+      "id": "dept-computing-class-5-stu-30",
+      "name": "Student 30",
+      "roll": "5-30",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-31": {
+      "id": "dept-computing-class-5-stu-31",
+      "name": "Student 31",
+      "roll": "5-31",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-32": {
+      "id": "dept-computing-class-5-stu-32",
+      "name": "Student 32",
+      "roll": "5-32",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-33": {
+      "id": "dept-computing-class-5-stu-33",
+      "name": "Student 33",
+      "roll": "5-33",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-34": {
+      "id": "dept-computing-class-5-stu-34",
+      "name": "Student 34",
+      "roll": "5-34",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-computing-class-5-stu-35": {
+      "id": "dept-computing-class-5-stu-35",
+      "name": "Student 35",
+      "roll": "5-35",
+      "departmentId": "dept-computing",
+      "classId": "dept-computing-class-5"
+    },
+    "dept-software-class-1-stu-1": {
+      "id": "dept-software-class-1-stu-1",
+      "name": "Student 1",
+      "roll": "1-1",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-2": {
+      "id": "dept-software-class-1-stu-2",
+      "name": "Student 2",
+      "roll": "1-2",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-3": {
+      "id": "dept-software-class-1-stu-3",
+      "name": "Student 3",
+      "roll": "1-3",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-4": {
+      "id": "dept-software-class-1-stu-4",
+      "name": "Student 4",
+      "roll": "1-4",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-5": {
+      "id": "dept-software-class-1-stu-5",
+      "name": "Student 5",
+      "roll": "1-5",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-6": {
+      "id": "dept-software-class-1-stu-6",
+      "name": "Student 6",
+      "roll": "1-6",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-7": {
+      "id": "dept-software-class-1-stu-7",
+      "name": "Student 7",
+      "roll": "1-7",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-8": {
+      "id": "dept-software-class-1-stu-8",
+      "name": "Student 8",
+      "roll": "1-8",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-9": {
+      "id": "dept-software-class-1-stu-9",
+      "name": "Student 9",
+      "roll": "1-9",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-10": {
+      "id": "dept-software-class-1-stu-10",
+      "name": "Student 10",
+      "roll": "1-10",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-11": {
+      "id": "dept-software-class-1-stu-11",
+      "name": "Student 11",
+      "roll": "1-11",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-12": {
+      "id": "dept-software-class-1-stu-12",
+      "name": "Student 12",
+      "roll": "1-12",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-13": {
+      "id": "dept-software-class-1-stu-13",
+      "name": "Student 13",
+      "roll": "1-13",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-14": {
+      "id": "dept-software-class-1-stu-14",
+      "name": "Student 14",
+      "roll": "1-14",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-15": {
+      "id": "dept-software-class-1-stu-15",
+      "name": "Student 15",
+      "roll": "1-15",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-16": {
+      "id": "dept-software-class-1-stu-16",
+      "name": "Student 16",
+      "roll": "1-16",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-17": {
+      "id": "dept-software-class-1-stu-17",
+      "name": "Student 17",
+      "roll": "1-17",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-18": {
+      "id": "dept-software-class-1-stu-18",
+      "name": "Student 18",
+      "roll": "1-18",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-19": {
+      "id": "dept-software-class-1-stu-19",
+      "name": "Student 19",
+      "roll": "1-19",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-20": {
+      "id": "dept-software-class-1-stu-20",
+      "name": "Student 20",
+      "roll": "1-20",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-21": {
+      "id": "dept-software-class-1-stu-21",
+      "name": "Student 21",
+      "roll": "1-21",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-22": {
+      "id": "dept-software-class-1-stu-22",
+      "name": "Student 22",
+      "roll": "1-22",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-23": {
+      "id": "dept-software-class-1-stu-23",
+      "name": "Student 23",
+      "roll": "1-23",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-24": {
+      "id": "dept-software-class-1-stu-24",
+      "name": "Student 24",
+      "roll": "1-24",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-25": {
+      "id": "dept-software-class-1-stu-25",
+      "name": "Student 25",
+      "roll": "1-25",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-26": {
+      "id": "dept-software-class-1-stu-26",
+      "name": "Student 26",
+      "roll": "1-26",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-27": {
+      "id": "dept-software-class-1-stu-27",
+      "name": "Student 27",
+      "roll": "1-27",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-28": {
+      "id": "dept-software-class-1-stu-28",
+      "name": "Student 28",
+      "roll": "1-28",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-29": {
+      "id": "dept-software-class-1-stu-29",
+      "name": "Student 29",
+      "roll": "1-29",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-30": {
+      "id": "dept-software-class-1-stu-30",
+      "name": "Student 30",
+      "roll": "1-30",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-31": {
+      "id": "dept-software-class-1-stu-31",
+      "name": "Student 31",
+      "roll": "1-31",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-32": {
+      "id": "dept-software-class-1-stu-32",
+      "name": "Student 32",
+      "roll": "1-32",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-33": {
+      "id": "dept-software-class-1-stu-33",
+      "name": "Student 33",
+      "roll": "1-33",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-34": {
+      "id": "dept-software-class-1-stu-34",
+      "name": "Student 34",
+      "roll": "1-34",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-1-stu-35": {
+      "id": "dept-software-class-1-stu-35",
+      "name": "Student 35",
+      "roll": "1-35",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-1"
+    },
+    "dept-software-class-2-stu-1": {
+      "id": "dept-software-class-2-stu-1",
+      "name": "Student 1",
+      "roll": "2-1",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-2": {
+      "id": "dept-software-class-2-stu-2",
+      "name": "Student 2",
+      "roll": "2-2",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-3": {
+      "id": "dept-software-class-2-stu-3",
+      "name": "Student 3",
+      "roll": "2-3",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-4": {
+      "id": "dept-software-class-2-stu-4",
+      "name": "Student 4",
+      "roll": "2-4",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-5": {
+      "id": "dept-software-class-2-stu-5",
+      "name": "Student 5",
+      "roll": "2-5",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-6": {
+      "id": "dept-software-class-2-stu-6",
+      "name": "Student 6",
+      "roll": "2-6",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-7": {
+      "id": "dept-software-class-2-stu-7",
+      "name": "Student 7",
+      "roll": "2-7",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-8": {
+      "id": "dept-software-class-2-stu-8",
+      "name": "Student 8",
+      "roll": "2-8",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-9": {
+      "id": "dept-software-class-2-stu-9",
+      "name": "Student 9",
+      "roll": "2-9",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-10": {
+      "id": "dept-software-class-2-stu-10",
+      "name": "Student 10",
+      "roll": "2-10",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-11": {
+      "id": "dept-software-class-2-stu-11",
+      "name": "Student 11",
+      "roll": "2-11",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-12": {
+      "id": "dept-software-class-2-stu-12",
+      "name": "Student 12",
+      "roll": "2-12",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-13": {
+      "id": "dept-software-class-2-stu-13",
+      "name": "Student 13",
+      "roll": "2-13",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-14": {
+      "id": "dept-software-class-2-stu-14",
+      "name": "Student 14",
+      "roll": "2-14",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-15": {
+      "id": "dept-software-class-2-stu-15",
+      "name": "Student 15",
+      "roll": "2-15",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-16": {
+      "id": "dept-software-class-2-stu-16",
+      "name": "Student 16",
+      "roll": "2-16",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-17": {
+      "id": "dept-software-class-2-stu-17",
+      "name": "Student 17",
+      "roll": "2-17",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-18": {
+      "id": "dept-software-class-2-stu-18",
+      "name": "Student 18",
+      "roll": "2-18",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-19": {
+      "id": "dept-software-class-2-stu-19",
+      "name": "Student 19",
+      "roll": "2-19",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-20": {
+      "id": "dept-software-class-2-stu-20",
+      "name": "Student 20",
+      "roll": "2-20",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-21": {
+      "id": "dept-software-class-2-stu-21",
+      "name": "Student 21",
+      "roll": "2-21",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-22": {
+      "id": "dept-software-class-2-stu-22",
+      "name": "Student 22",
+      "roll": "2-22",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-23": {
+      "id": "dept-software-class-2-stu-23",
+      "name": "Student 23",
+      "roll": "2-23",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-24": {
+      "id": "dept-software-class-2-stu-24",
+      "name": "Student 24",
+      "roll": "2-24",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-25": {
+      "id": "dept-software-class-2-stu-25",
+      "name": "Student 25",
+      "roll": "2-25",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-26": {
+      "id": "dept-software-class-2-stu-26",
+      "name": "Student 26",
+      "roll": "2-26",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-27": {
+      "id": "dept-software-class-2-stu-27",
+      "name": "Student 27",
+      "roll": "2-27",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-28": {
+      "id": "dept-software-class-2-stu-28",
+      "name": "Student 28",
+      "roll": "2-28",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-29": {
+      "id": "dept-software-class-2-stu-29",
+      "name": "Student 29",
+      "roll": "2-29",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-30": {
+      "id": "dept-software-class-2-stu-30",
+      "name": "Student 30",
+      "roll": "2-30",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-31": {
+      "id": "dept-software-class-2-stu-31",
+      "name": "Student 31",
+      "roll": "2-31",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-32": {
+      "id": "dept-software-class-2-stu-32",
+      "name": "Student 32",
+      "roll": "2-32",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-33": {
+      "id": "dept-software-class-2-stu-33",
+      "name": "Student 33",
+      "roll": "2-33",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-34": {
+      "id": "dept-software-class-2-stu-34",
+      "name": "Student 34",
+      "roll": "2-34",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-2-stu-35": {
+      "id": "dept-software-class-2-stu-35",
+      "name": "Student 35",
+      "roll": "2-35",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-2"
+    },
+    "dept-software-class-3-stu-1": {
+      "id": "dept-software-class-3-stu-1",
+      "name": "Student 1",
+      "roll": "3-1",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-2": {
+      "id": "dept-software-class-3-stu-2",
+      "name": "Student 2",
+      "roll": "3-2",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-3": {
+      "id": "dept-software-class-3-stu-3",
+      "name": "Student 3",
+      "roll": "3-3",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-4": {
+      "id": "dept-software-class-3-stu-4",
+      "name": "Student 4",
+      "roll": "3-4",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-5": {
+      "id": "dept-software-class-3-stu-5",
+      "name": "Student 5",
+      "roll": "3-5",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-6": {
+      "id": "dept-software-class-3-stu-6",
+      "name": "Student 6",
+      "roll": "3-6",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-7": {
+      "id": "dept-software-class-3-stu-7",
+      "name": "Student 7",
+      "roll": "3-7",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-8": {
+      "id": "dept-software-class-3-stu-8",
+      "name": "Student 8",
+      "roll": "3-8",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-9": {
+      "id": "dept-software-class-3-stu-9",
+      "name": "Student 9",
+      "roll": "3-9",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-10": {
+      "id": "dept-software-class-3-stu-10",
+      "name": "Student 10",
+      "roll": "3-10",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-11": {
+      "id": "dept-software-class-3-stu-11",
+      "name": "Student 11",
+      "roll": "3-11",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-12": {
+      "id": "dept-software-class-3-stu-12",
+      "name": "Student 12",
+      "roll": "3-12",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-13": {
+      "id": "dept-software-class-3-stu-13",
+      "name": "Student 13",
+      "roll": "3-13",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-14": {
+      "id": "dept-software-class-3-stu-14",
+      "name": "Student 14",
+      "roll": "3-14",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-15": {
+      "id": "dept-software-class-3-stu-15",
+      "name": "Student 15",
+      "roll": "3-15",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-16": {
+      "id": "dept-software-class-3-stu-16",
+      "name": "Student 16",
+      "roll": "3-16",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-17": {
+      "id": "dept-software-class-3-stu-17",
+      "name": "Student 17",
+      "roll": "3-17",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-18": {
+      "id": "dept-software-class-3-stu-18",
+      "name": "Student 18",
+      "roll": "3-18",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-19": {
+      "id": "dept-software-class-3-stu-19",
+      "name": "Student 19",
+      "roll": "3-19",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-20": {
+      "id": "dept-software-class-3-stu-20",
+      "name": "Student 20",
+      "roll": "3-20",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-21": {
+      "id": "dept-software-class-3-stu-21",
+      "name": "Student 21",
+      "roll": "3-21",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-22": {
+      "id": "dept-software-class-3-stu-22",
+      "name": "Student 22",
+      "roll": "3-22",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-23": {
+      "id": "dept-software-class-3-stu-23",
+      "name": "Student 23",
+      "roll": "3-23",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-24": {
+      "id": "dept-software-class-3-stu-24",
+      "name": "Student 24",
+      "roll": "3-24",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-25": {
+      "id": "dept-software-class-3-stu-25",
+      "name": "Student 25",
+      "roll": "3-25",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-26": {
+      "id": "dept-software-class-3-stu-26",
+      "name": "Student 26",
+      "roll": "3-26",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-27": {
+      "id": "dept-software-class-3-stu-27",
+      "name": "Student 27",
+      "roll": "3-27",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-28": {
+      "id": "dept-software-class-3-stu-28",
+      "name": "Student 28",
+      "roll": "3-28",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-29": {
+      "id": "dept-software-class-3-stu-29",
+      "name": "Student 29",
+      "roll": "3-29",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-30": {
+      "id": "dept-software-class-3-stu-30",
+      "name": "Student 30",
+      "roll": "3-30",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-31": {
+      "id": "dept-software-class-3-stu-31",
+      "name": "Student 31",
+      "roll": "3-31",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-32": {
+      "id": "dept-software-class-3-stu-32",
+      "name": "Student 32",
+      "roll": "3-32",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-33": {
+      "id": "dept-software-class-3-stu-33",
+      "name": "Student 33",
+      "roll": "3-33",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-34": {
+      "id": "dept-software-class-3-stu-34",
+      "name": "Student 34",
+      "roll": "3-34",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-3-stu-35": {
+      "id": "dept-software-class-3-stu-35",
+      "name": "Student 35",
+      "roll": "3-35",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-3"
+    },
+    "dept-software-class-4-stu-1": {
+      "id": "dept-software-class-4-stu-1",
+      "name": "Student 1",
+      "roll": "4-1",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-2": {
+      "id": "dept-software-class-4-stu-2",
+      "name": "Student 2",
+      "roll": "4-2",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-3": {
+      "id": "dept-software-class-4-stu-3",
+      "name": "Student 3",
+      "roll": "4-3",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-4": {
+      "id": "dept-software-class-4-stu-4",
+      "name": "Student 4",
+      "roll": "4-4",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-5": {
+      "id": "dept-software-class-4-stu-5",
+      "name": "Student 5",
+      "roll": "4-5",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-6": {
+      "id": "dept-software-class-4-stu-6",
+      "name": "Student 6",
+      "roll": "4-6",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-7": {
+      "id": "dept-software-class-4-stu-7",
+      "name": "Student 7",
+      "roll": "4-7",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-8": {
+      "id": "dept-software-class-4-stu-8",
+      "name": "Student 8",
+      "roll": "4-8",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-9": {
+      "id": "dept-software-class-4-stu-9",
+      "name": "Student 9",
+      "roll": "4-9",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-10": {
+      "id": "dept-software-class-4-stu-10",
+      "name": "Student 10",
+      "roll": "4-10",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-11": {
+      "id": "dept-software-class-4-stu-11",
+      "name": "Student 11",
+      "roll": "4-11",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-12": {
+      "id": "dept-software-class-4-stu-12",
+      "name": "Student 12",
+      "roll": "4-12",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-13": {
+      "id": "dept-software-class-4-stu-13",
+      "name": "Student 13",
+      "roll": "4-13",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-14": {
+      "id": "dept-software-class-4-stu-14",
+      "name": "Student 14",
+      "roll": "4-14",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-15": {
+      "id": "dept-software-class-4-stu-15",
+      "name": "Student 15",
+      "roll": "4-15",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-16": {
+      "id": "dept-software-class-4-stu-16",
+      "name": "Student 16",
+      "roll": "4-16",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-17": {
+      "id": "dept-software-class-4-stu-17",
+      "name": "Student 17",
+      "roll": "4-17",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-18": {
+      "id": "dept-software-class-4-stu-18",
+      "name": "Student 18",
+      "roll": "4-18",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-19": {
+      "id": "dept-software-class-4-stu-19",
+      "name": "Student 19",
+      "roll": "4-19",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-20": {
+      "id": "dept-software-class-4-stu-20",
+      "name": "Student 20",
+      "roll": "4-20",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-21": {
+      "id": "dept-software-class-4-stu-21",
+      "name": "Student 21",
+      "roll": "4-21",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-22": {
+      "id": "dept-software-class-4-stu-22",
+      "name": "Student 22",
+      "roll": "4-22",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-23": {
+      "id": "dept-software-class-4-stu-23",
+      "name": "Student 23",
+      "roll": "4-23",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-24": {
+      "id": "dept-software-class-4-stu-24",
+      "name": "Student 24",
+      "roll": "4-24",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-25": {
+      "id": "dept-software-class-4-stu-25",
+      "name": "Student 25",
+      "roll": "4-25",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-26": {
+      "id": "dept-software-class-4-stu-26",
+      "name": "Student 26",
+      "roll": "4-26",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-27": {
+      "id": "dept-software-class-4-stu-27",
+      "name": "Student 27",
+      "roll": "4-27",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-28": {
+      "id": "dept-software-class-4-stu-28",
+      "name": "Student 28",
+      "roll": "4-28",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-29": {
+      "id": "dept-software-class-4-stu-29",
+      "name": "Student 29",
+      "roll": "4-29",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-30": {
+      "id": "dept-software-class-4-stu-30",
+      "name": "Student 30",
+      "roll": "4-30",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-31": {
+      "id": "dept-software-class-4-stu-31",
+      "name": "Student 31",
+      "roll": "4-31",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-32": {
+      "id": "dept-software-class-4-stu-32",
+      "name": "Student 32",
+      "roll": "4-32",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-33": {
+      "id": "dept-software-class-4-stu-33",
+      "name": "Student 33",
+      "roll": "4-33",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-34": {
+      "id": "dept-software-class-4-stu-34",
+      "name": "Student 34",
+      "roll": "4-34",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-4-stu-35": {
+      "id": "dept-software-class-4-stu-35",
+      "name": "Student 35",
+      "roll": "4-35",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-4"
+    },
+    "dept-software-class-5-stu-1": {
+      "id": "dept-software-class-5-stu-1",
+      "name": "Student 1",
+      "roll": "5-1",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-2": {
+      "id": "dept-software-class-5-stu-2",
+      "name": "Student 2",
+      "roll": "5-2",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-3": {
+      "id": "dept-software-class-5-stu-3",
+      "name": "Student 3",
+      "roll": "5-3",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-4": {
+      "id": "dept-software-class-5-stu-4",
+      "name": "Student 4",
+      "roll": "5-4",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-5": {
+      "id": "dept-software-class-5-stu-5",
+      "name": "Student 5",
+      "roll": "5-5",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-6": {
+      "id": "dept-software-class-5-stu-6",
+      "name": "Student 6",
+      "roll": "5-6",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-7": {
+      "id": "dept-software-class-5-stu-7",
+      "name": "Student 7",
+      "roll": "5-7",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-8": {
+      "id": "dept-software-class-5-stu-8",
+      "name": "Student 8",
+      "roll": "5-8",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-9": {
+      "id": "dept-software-class-5-stu-9",
+      "name": "Student 9",
+      "roll": "5-9",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-10": {
+      "id": "dept-software-class-5-stu-10",
+      "name": "Student 10",
+      "roll": "5-10",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-11": {
+      "id": "dept-software-class-5-stu-11",
+      "name": "Student 11",
+      "roll": "5-11",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-12": {
+      "id": "dept-software-class-5-stu-12",
+      "name": "Student 12",
+      "roll": "5-12",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-13": {
+      "id": "dept-software-class-5-stu-13",
+      "name": "Student 13",
+      "roll": "5-13",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-14": {
+      "id": "dept-software-class-5-stu-14",
+      "name": "Student 14",
+      "roll": "5-14",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-15": {
+      "id": "dept-software-class-5-stu-15",
+      "name": "Student 15",
+      "roll": "5-15",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-16": {
+      "id": "dept-software-class-5-stu-16",
+      "name": "Student 16",
+      "roll": "5-16",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-17": {
+      "id": "dept-software-class-5-stu-17",
+      "name": "Student 17",
+      "roll": "5-17",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-18": {
+      "id": "dept-software-class-5-stu-18",
+      "name": "Student 18",
+      "roll": "5-18",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-19": {
+      "id": "dept-software-class-5-stu-19",
+      "name": "Student 19",
+      "roll": "5-19",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-20": {
+      "id": "dept-software-class-5-stu-20",
+      "name": "Student 20",
+      "roll": "5-20",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-21": {
+      "id": "dept-software-class-5-stu-21",
+      "name": "Student 21",
+      "roll": "5-21",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-22": {
+      "id": "dept-software-class-5-stu-22",
+      "name": "Student 22",
+      "roll": "5-22",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-23": {
+      "id": "dept-software-class-5-stu-23",
+      "name": "Student 23",
+      "roll": "5-23",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-24": {
+      "id": "dept-software-class-5-stu-24",
+      "name": "Student 24",
+      "roll": "5-24",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-25": {
+      "id": "dept-software-class-5-stu-25",
+      "name": "Student 25",
+      "roll": "5-25",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-26": {
+      "id": "dept-software-class-5-stu-26",
+      "name": "Student 26",
+      "roll": "5-26",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-27": {
+      "id": "dept-software-class-5-stu-27",
+      "name": "Student 27",
+      "roll": "5-27",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-28": {
+      "id": "dept-software-class-5-stu-28",
+      "name": "Student 28",
+      "roll": "5-28",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-29": {
+      "id": "dept-software-class-5-stu-29",
+      "name": "Student 29",
+      "roll": "5-29",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-30": {
+      "id": "dept-software-class-5-stu-30",
+      "name": "Student 30",
+      "roll": "5-30",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-31": {
+      "id": "dept-software-class-5-stu-31",
+      "name": "Student 31",
+      "roll": "5-31",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-32": {
+      "id": "dept-software-class-5-stu-32",
+      "name": "Student 32",
+      "roll": "5-32",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-33": {
+      "id": "dept-software-class-5-stu-33",
+      "name": "Student 33",
+      "roll": "5-33",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-34": {
+      "id": "dept-software-class-5-stu-34",
+      "name": "Student 34",
+      "roll": "5-34",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    },
+    "dept-software-class-5-stu-35": {
+      "id": "dept-software-class-5-stu-35",
+      "name": "Student 35",
+      "roll": "5-35",
+      "departmentId": "dept-software",
+      "classId": "dept-software-class-5"
+    }
+  }
+}

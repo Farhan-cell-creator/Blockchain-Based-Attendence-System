@@ -1,0 +1,50 @@
+{
+  "id": "dept-computing-class-1-stu-6",
+  "type": "student",
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-15T18:52:30.108Z",
+      "transactions": {
+        "meta": "student genesis for dept-computing-class-1-stu-6"
+      },
+      "prev_hash": "00004b69a2cde4fa07979fe2b7414926c052c37a2d9aabbddb7f730cf6a7dc99",
+      "nonce": 22881,
+      "hash": "000022e867e030a1b44616d7622e0288649dfb87811e94416ed9919ba7c16fd0"
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-15T18:52:30.217Z",
+      "transactions": {
+        "meta": {
+          "id": "dept-computing-class-1-stu-6",
+          "name": "Student 6",
+          "roll": "1-6",
+          "departmentId": "dept-computing",
+          "classId": "dept-computing-class-1"
+        }
+      },
+      "prev_hash": "000022e867e030a1b44616d7622e0288649dfb87811e94416ed9919ba7c16fd0",
+      "nonce": 48779,
+      "hash": "00007a9436e95d64feb88dd30143299651439b47e38270810c7b51e2b667da3a"
+    },
+    {
+      "index": 2,
+      "timestamp": "2025-11-16T13:35:42.402Z",
+      "transactions": {
+        "attendance": {
+          "studentId": "dept-computing-class-1-stu-6",
+          "name": "Student 6",
+          "roll": "1-6",
+          "departmentId": "dept-computing",
+          "classId": "dept-computing-class-1",
+          "timestamp": "2025-11-16T13:35:42.402Z",
+          "status": "Present"
+        }
+      },
+      "prev_hash": "00007a9436e95d64feb88dd30143299651439b47e38270810c7b51e2b667da3a",
+      "nonce": 49334,
+      "hash": "0000948ef8783f909c1ec51b8db98a500b51855474ffd188ee9aa00d95397646"
+    }
+  ]
+}

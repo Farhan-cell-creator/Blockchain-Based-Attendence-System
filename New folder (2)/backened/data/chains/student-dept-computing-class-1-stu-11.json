@@ -1,0 +1,140 @@
+{
+  "id": "dept-computing-class-1-stu-11",
+  "type": "student",
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-15T18:52:33.310Z",
+      "transactions": {
+        "meta": "student genesis for dept-computing-class-1-stu-11"
+      },
+      "prev_hash": "00004b69a2cde4fa07979fe2b7414926c052c37a2d9aabbddb7f730cf6a7dc99",
+      "nonce": 20864,
+      "hash": "0000acc1ecebbafeec05e152159ee8cf9a062b5f1251772b00673954f020f858"
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-15T18:52:33.475Z",
+      "transactions": {
+        "meta": {
+          "id": "dept-computing-class-1-stu-11",
+          "name": "Student 11",
+          "roll": "1-11",
+          "departmentId": "dept-computing",
+          "classId": "dept-computing-class-1"
+        }
+      },
+      "prev_hash": "0000acc1ecebbafeec05e152159ee8cf9a062b5f1251772b00673954f020f858",
+      "nonce": 15080,
+      "hash": "00003f8da1535cc3f70bb0f72e925674da983229b339ff14b6d600b471fa5874"
+    },
+    {
+      "index": 2,
+      "timestamp": "2025-11-16T13:25:52.277Z",
+      "transactions": {
+        "attendance": {
+          "studentId": "dept-computing-class-1-stu-11",
+          "name": "Student 11",
+          "roll": "1-11",
+          "departmentId": "dept-computing",
+          "classId": "dept-computing-class-1",
+          "timestamp": "2025-11-16T13:25:52.277Z",
+          "status": "Present"
+        }
+      },
+      "prev_hash": "00003f8da1535cc3f70bb0f72e925674da983229b339ff14b6d600b471fa5874",
+      "nonce": 92308,
+      "hash": "000047b020268e970d160223d8b8fd523dda803a00ed7cd4b09c17c2286ceab8"
+    },
+    {
+      "index": 3,
+      "timestamp": "2025-11-16T13:44:02.069Z",
+      "transactions": {
+        "attendance": {
+          "studentId": "dept-computing-class-1-stu-11",
+          "name": "Student 11",
+          "roll": "1-11",
+          "departmentId": "dept-computing",
+          "classId": "dept-computing-class-1",
+          "timestamp": "2025-11-16T13:44:02.069Z",
+          "status": "Present"
+        }
+      },
+      "prev_hash": "000047b020268e970d160223d8b8fd523dda803a00ed7cd4b09c17c2286ceab8",
+      "nonce": 58446,
+      "hash": "0000f41440ee5dbe6f5bd2146834e58fabe680a7dadafbf7a45ab778a9269462"
+    },
+    {
+      "index": 4,
+      "timestamp": "2025-11-16T13:44:45.859Z",
+      "transactions": {
+        "attendance": {
+          "studentId": "dept-computing-class-1-stu-11",
+          "name": "Student 11",
+          "roll": "1-11",
+          "departmentId": "dept-computing",
+          "classId": "dept-computing-class-1",
+          "timestamp": "2025-11-16T13:44:45.859Z",
+          "status": "Present"
+        }
+      },
+      "prev_hash": "0000f41440ee5dbe6f5bd2146834e58fabe680a7dadafbf7a45ab778a9269462",
+      "nonce": 58145,
+      "hash": "00001ac745573be7d338d943eadd9ee9661c005f205635487b7d6ca23d22b6cb"
+    },
+    {
+      "index": 5,
+      "timestamp": "2025-11-16T13:44:48.931Z",
+      "transactions": {
+        "attendance": {
+          "studentId": "dept-computing-class-1-stu-11",
+          "name": "Student 11",
+          "roll": "1-11",
+          "departmentId": "dept-computing",
+          "classId": "dept-computing-class-1",
+          "timestamp": "2025-11-16T13:44:48.931Z",
+          "status": "Present"
+        }
+      },
+      "prev_hash": "00001ac745573be7d338d943eadd9ee9661c005f205635487b7d6ca23d22b6cb",
+      "nonce": 181175,
+      "hash": "0000790735710ea2605f76d813c007aedac71dcfbd952aafcaf94d3f9c6ff391"
+    },
+    {
+      "index": 6,
+      "timestamp": "2025-11-16T13:44:51.668Z",
+      "transactions": {
+        "attendance": {
+          "studentId": "dept-computing-class-1-stu-11",
+          "name": "Student 11",
+          "roll": "1-11",
+          "departmentId": "dept-computing",
+          "classId": "dept-computing-class-1",
+          "timestamp": "2025-11-16T13:44:51.668Z",
+          "status": "Present"
+        }
+      },
+      "prev_hash": "0000790735710ea2605f76d813c007aedac71dcfbd952aafcaf94d3f9c6ff391",
+      "nonce": 26449,
+      "hash": "0000f891d31b786746cca88136940d1f4eea7605df1046d2a8dd49a375b8f6ee"
+    },
+    {
+      "index": 7,
+      "timestamp": "2025-11-16T13:44:53.328Z",
+      "transactions": {
+        "attendance": {
+          "studentId": "dept-computing-class-1-stu-11",
+          "name": "Student 11",
+          "roll": "1-11",
+          "departmentId": "dept-computing",
+          "classId": "dept-computing-class-1",
+          "timestamp": "2025-11-16T13:44:53.328Z",
+          "status": "Present"
+        }
+      },
+      "prev_hash": "0000f891d31b786746cca88136940d1f4eea7605df1046d2a8dd49a375b8f6ee",
+      "nonce": 2873,
+      "hash": "0000cc4f8b0a48add8c282026620b6a0c902bb4ec4b31f77f3e4637638ef1d9c"
+    }
+  ]
+}

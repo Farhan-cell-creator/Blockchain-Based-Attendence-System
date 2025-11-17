@@ -1,0 +1,32 @@
+{
+  "id": "dept-computing-class-3-stu-11",
+  "type": "student",
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-15T18:53:21.366Z",
+      "transactions": {
+        "meta": "student genesis for dept-computing-class-3-stu-11"
+      },
+      "prev_hash": "0000b70966f41d4394540883349208a79a5e420eb9ac58c93cb6e4e4be2df4e0",
+      "nonce": 74826,
+      "hash": "00007f2322c4522e6db95c7d802457981ea3b54e12f988b1b672c12e0144bc50"
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-15T18:53:21.596Z",
+      "transactions": {
+        "meta": {
+          "id": "dept-computing-class-3-stu-11",
+          "name": "Student 11",
+          "roll": "3-11",
+          "departmentId": "dept-computing",
+          "classId": "dept-computing-class-3"
+        }
+      },
+      "prev_hash": "00007f2322c4522e6db95c7d802457981ea3b54e12f988b1b672c12e0144bc50",
+      "nonce": 129228,
+      "hash": "000014271d8e0bbe61dd60421424a6276d8c2a321707e3d992507a838f547cb7"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dept-software",
+  "type": "department",
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-15T18:54:31.382Z",
+      "transactions": {
+        "meta": "department genesis for dept-software"
+      },
+      "prev_hash": "0",
+      "nonce": 99179,
+      "hash": "0000995949240f5ccbd17eae320809fdcb4f439c2f425ee7c365c1a20b41f413"
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-15T18:54:31.697Z",
+      "transactions": {
+        "meta": {
+          "name": "School of Software Engineering"
+        }
+      },
+      "prev_hash": "0000995949240f5ccbd17eae320809fdcb4f439c2f425ee7c365c1a20b41f413",
+      "nonce": 38448,
+      "hash": "00001d21f98cd07be2feef167d8cacd8df572442273aefb221ee9b05d1953087"
+    }
+  ]
+}

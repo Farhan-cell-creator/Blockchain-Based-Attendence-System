@@ -1,0 +1,28 @@
+{
+  "id": "dept-software-class-4",
+  "type": "class",
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-15T18:55:59.124Z",
+      "transactions": {
+        "meta": "class genesis for dept-software-class-4"
+      },
+      "prev_hash": "00001d21f98cd07be2feef167d8cacd8df572442273aefb221ee9b05d1953087",
+      "nonce": 5244,
+      "hash": "00008065e0aa12521488f50762ee84b120c301fcedbd45a621d647637e3cfb76"
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-15T18:55:59.155Z",
+      "transactions": {
+        "meta": {
+          "name": "Class 4"
+        }
+      },
+      "prev_hash": "00008065e0aa12521488f50762ee84b120c301fcedbd45a621d647637e3cfb76",
+      "nonce": 145770,
+      "hash": "0000a2240eeb049e9e7b8afabf9f36e9eca8e438063679825a06bfb72e6c2146"
+    }
+  ]
+}

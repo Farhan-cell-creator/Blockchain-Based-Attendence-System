@@ -1,0 +1,28 @@
+{
+  "id": "dept-computing-class-5",
+  "type": "class",
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-15T18:54:06.782Z",
+      "transactions": {
+        "meta": "class genesis for dept-computing-class-5"
+      },
+      "prev_hash": "00000527c3774c7a6e2a4ff16d790447fe51094606f7cabf55b074c9777aab1a",
+      "nonce": 8096,
+      "hash": "0000329d2c2be79331a3d3712a29c1391300936051cfc72a08bc30e953810e9f"
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-15T18:54:06.813Z",
+      "transactions": {
+        "meta": {
+          "name": "Class 5"
+        }
+      },
+      "prev_hash": "0000329d2c2be79331a3d3712a29c1391300936051cfc72a08bc30e953810e9f",
+      "nonce": 13496,
+      "hash": "000027f241b0d488999dce0aa5df338a8d07d7ac5a46543d3f23953560f86e98"
+    }
+  ]
+}

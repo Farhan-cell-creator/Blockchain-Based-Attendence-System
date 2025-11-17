@@ -1,0 +1,28 @@
+{
+  "id": "dept-computing-class-4",
+  "type": "class",
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-15T18:53:39.480Z",
+      "transactions": {
+        "meta": "class genesis for dept-computing-class-4"
+      },
+      "prev_hash": "00000527c3774c7a6e2a4ff16d790447fe51094606f7cabf55b074c9777aab1a",
+      "nonce": 12557,
+      "hash": "00001b1ca5898969aa3ab3a3a71bcd55b9243e6b06c80d46208bff9f48c640c4"
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-15T18:53:39.594Z",
+      "transactions": {
+        "meta": {
+          "name": "Class 4"
+        }
+      },
+      "prev_hash": "00001b1ca5898969aa3ab3a3a71bcd55b9243e6b06c80d46208bff9f48c640c4",
+      "nonce": 42385,
+      "hash": "000038415f8bdf8d23ffc216cc56ba3ee80c6dd85d2b5de829f172ae653a26c9"
+    }
+  ]
+}

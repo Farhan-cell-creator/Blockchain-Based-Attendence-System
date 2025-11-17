@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>BAMS Explorer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>BAMS — Explorer</h1>
+
+      <section class="panel">
+        <h2>Departments</h2>
+        <button id="btn-load-depts">Load Departments</button>
+        <div id="depts"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Classes</h2>
+        <button id="btn-load-classes">Load Classes</button>
+        <div id="classes"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Students</h2>
+        <button id="btn-load-students">Load Students</button>
+        <div id="students"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Student Chain / Attendance</h2>
+        <div class="row">
+          <input id="student-id-input" placeholder="Enter student id (e.g. dept-computing-class-1-stu-1)" />
+          <button id="btn-view-student">View Chain</button>
+        </div>
+        <div id="student-chain" class="json"></div>
+
+        <h3>Mark Attendance</h3>
+        <div class="row">
+          <input id="att-student-id" placeholder="student id" />
+          <select id="att-status"><option>Present</option><option>Absent</option><option>Leave</option></select>
+          <button id="btn-mark-att">Mark</button>
+        </div>
+        <div id="att-result" class="json"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Raw API Examples</h2>
+        <pre>
+GET /api/departments
+GET /api/classes
+GET /api/students
+GET /api/attendance/student/:id
+POST /api/attendance/mark { studentId, status }
+        </pre>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
